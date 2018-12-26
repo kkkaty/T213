@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyBatis02:war exploded">
+    <output-path>$PROJECT_DIR$/target/MyBatis02</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyBatis02" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.5" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.44" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.9.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.9.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-web:2.9.1" />
+          <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.1.2" />
+          <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:1.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/MyBatis02/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="MyBatis02/web/Web" />
+    </root>
+  </artifact>
+</component>
