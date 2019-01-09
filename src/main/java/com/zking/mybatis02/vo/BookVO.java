@@ -8,7 +8,7 @@ public class BookVO extends Book {
     private List<Integer> ids;
     private float minPrice;
     private float maxPrice;
-
+    private String name;
     public float getMaxPrice() {
         return maxPrice;
     }

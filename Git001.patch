@@ -1,0 +1,16 @@
+Index: src/main/java/com/zking/mybatis02/vo/BookVO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/zking/mybatis02/vo/BookVO.java	(date 1545828306000)
++++ src/main/java/com/zking/mybatis02/vo/BookVO.java	(date 1545828845409)
+@@ -8,7 +8,7 @@
+     private List<Integer> ids;
+     private float minPrice;
+     private float maxPrice;
+-
++    private String name;
+     public float getMaxPrice() {
+         return maxPrice;
+     }
